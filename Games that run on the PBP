@@ -2,3 +2,4 @@ Quakespasm runs with above 50 fps but with graphic glitches (flikering of object
 eduke 32 (when build with command make -opengl=0) no problems and above 50 fps
 io3quake runs flawless with above 50 fps
 darkplaces does not build
+chokolate-hexen i get this error afther building it without problem "W_GetNumForName: FONTA_S not found!"
