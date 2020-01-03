@@ -28,3 +28,8 @@ wget http://hendricks266.duke4.net/files/3dduke13_data.7z -O 3dduke13_data.7z
 sudo apt-get install -y p7zip
 # unzip
 p7zip -d 3dduke13_data.7z
+
+
+
+
+make USE_OPENGL=0
