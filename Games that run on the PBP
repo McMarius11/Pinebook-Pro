@@ -1,5 +1,6 @@
 Quakespasm runs with above 50 fps but with graphic glitches (flikering of objects in the distance)
 eduke 32 (when build with command make -opengl=0) no problems and above 50 fps
+eduke32_nblood you have to build by the command make and it runs well in Software mode
 io3quake runs flawless with above 50 fps  launch command "DBUS_FATAL_WARNINGS=0 ./ioquake3.aarch64 +set cl_renderer opengl1 +set r_mode -1 +set r_customwidth 1920 +set r_customheight 1080 +set r_fullscreen 1 +set cg_drawFPS 1" add "+set r_swapinterval 1" for vsync
 darkplaces does not build
 chokolate-hexen start game with "chocolate-hexen -iwad /home/username/.local/share/chocolate-doom/HEXEN.WAD" then it runs
