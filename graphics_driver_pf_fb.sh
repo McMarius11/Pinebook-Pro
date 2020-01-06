@@ -71,10 +71,10 @@ echo "QT_Software backend to Software"
 sudo sed -i 's/#QT_QUICK_BACKEND=software/QT_QUICK_BACKEND=software/g' $QT_file
 echo "please reboot your Laptop";;
 9)
-echo "1Bye Bye" 
+echo "Bye Bye" 
 exit;;
 *)
-echo "2Bye Bye" ;;
+echo "Bye Bye" ;;
 esac
 
 
