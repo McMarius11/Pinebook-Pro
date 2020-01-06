@@ -4,6 +4,9 @@ mesa=mesa-git
 fbturbofile=/etc/X11/xorg.conf.d/99-fbturbo.conf
 GLES_en=('qt5-es2-base qt5-es2-declarative qt5-es2-multimedia')
 GLES_di=('qt5-base  qt5-declarative qt5-multimedia')
+QT_software=replace "abc" "XYZ" -- file.txt file2.txt file3.txt
+QT_hardware=('#QT_QUICK_BACKEND=software') 
+QT_file=/etc/environment
 echo "-----------------------------------"
 echo "Little PBP Panfrost or fbturbo bash"
 echo "-----------------------------------"
@@ -31,10 +34,15 @@ sudo pacman -S $GLES_en;;
 4)
 echo "Installing non_OpenGLES QT5 packages" 
 sudo pacman -S $GLES_di;;
+5)
+echo "QT_Software backend to Hardware" 
+sudo sed -i 's/QT_QUICK_BACKEND=software/#QT_QUICK_BACKEND=software/g' $QT_file;;
+6)
+echo "QT_Software backend to Software" 
+sudo sed -i 's/#QT_QUICK_BACKEND=software/QT_QUICK_BACKEND=software/g' $QT_file;;
 7)
 echo "Bye Bye" 
 exit;;
 *)
 echo "Bye Bye" ;;
 esac
-
