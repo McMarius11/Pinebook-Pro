@@ -34,9 +34,9 @@ sudo pacman -S $mesa
 echo "Installing OpenGLES enabled QT5 packages" 
 sudo pacman -S $GLES_en
 echo "QT_Software backend to Hardware" 
-sudo sed -i 's/QT_QUICK_BACKEND=software/#QT_QUICK_BACKEND=software/g' $QT_file;;
+sudo sed -i 's/QT_QUICK_BACKEND=software/#QT_QUICK_BACKEND=software/g' $QT_file
 echo "please enable Compositor on startup and change xrender to OpenGL2.0"
-echo "please reboot after that change"
+echo "please reboot after that change";;
 2)
 echo "Installing FBturbo" 
 sudo pacman -S $fbturbo
