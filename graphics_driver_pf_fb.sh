@@ -8,6 +8,7 @@ QT_file=/etc/environment
 echo "                                          "
 echo "-----------------------------------"
 echo "Little PBP Panfrost or fbturbo bash"
+echo "  only tested on the KDE Edition"
 echo "-----------------------------------"
 echo "                                          "
 echo "-AUTOMATIC-----------------------------------"
