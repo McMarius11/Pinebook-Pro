@@ -34,6 +34,8 @@ echo "Installing OpenGLES enabled QT5 packages"
 sudo pacman -S $GLES_en
 echo "QT_Software backend to Hardware" 
 sudo sed -i 's/QT_QUICK_BACKEND=software/#QT_QUICK_BACKEND=software/g' $QT_file;;
+echo "please enable Compositor on startup and change xrender to OpenGL2.0"
+echo "please reboot after that change"
 2)
 echo "Installing FBturbo" 
 sudo pacman -S $fbturbo
@@ -41,6 +43,8 @@ echo "Installing non_OpenGLES QT5 packages"
 sudo pacman -S $GLES_di
 echo "QT_Software backend to Software" 
 sudo sed -i 's/#QT_QUICK_BACKEND=software/QT_QUICK_BACKEND=software/g' $QT_file
+echo "please disable Compositor on startup and change OpenGL2.0 to xrender"
+echo "please reboot after that change"
 echo "please reboot your Laptop";;
 3)
 echo "Deinstalling Fbturbo" 
