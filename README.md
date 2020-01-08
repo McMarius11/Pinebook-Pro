@@ -11,3 +11,10 @@ eduke32.sh is just a test
 
 graphics_driver_pf_fb.sh
   easy Panfrost installer/remover for Manjaro KDE
+
+
+KDE wallet disable
+ Add the following lines to the end of ~/.config/kwalletrc
+
+[Wallet]
+Enabled=false
