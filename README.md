@@ -20,6 +20,21 @@ KDE wallet disable
 [Wallet]
 Enabled=false
 
+/
+/
+/
+/
+/
+/
+
+/
+/
+/
+/
+/
+/
+/
+/
 
 
 //JUST A PLACE HOLDER FOR NOW
