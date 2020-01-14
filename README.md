@@ -4,7 +4,7 @@ Here are some scripts to make your life easier
 
 ## Getting Started
 
-Games that run on the PBP 
+Games that run on the PBP ->
   shows games i tested if they work or not
   	
 eduke32.sh is just a test
